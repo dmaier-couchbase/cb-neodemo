@@ -1,4 +1,4 @@
 MATCH (keanu {name:"Keanu Reeves"})-[:ACTED_IN]->(movies {title:"The Matrix"})<-[:ACTED_IN]-(actors) RETURN actors
 
-//TODO: Find a way to get the name by which the node was created because this was used as the key in Couchbase
+//TODO: Find a way to get the name by which the node was created in Neo4j because this was used as the key in Couchbase
 //Show Hugo by first name from Couchbase!
